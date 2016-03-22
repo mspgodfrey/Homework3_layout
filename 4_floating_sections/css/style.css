@@ -1,0 +1,37 @@
+header {
+	background-color:#ff9999;
+	border: 10px solid red;
+	
+
+}
+
+#main {
+	background-color: #ffff99;	
+	width:75%;
+	border: 10px solid yellow;
+	
+	
+}
+
+
+aside {
+	background-color: #ccff99;
+	border: 10px solid green;
+	float:right;
+	width:25%;
+	
+}
+
+footer {
+ 	background-color:lightblue;	
+	border: 10px solid blue;
+
+}
+
+.placeholder {
+	width: 100%;
+    padding: 10px;
+    margin: 0px;
+    border-width:20px;
+    height:100px;
+}

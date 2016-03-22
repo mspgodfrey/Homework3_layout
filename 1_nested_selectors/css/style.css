@@ -1,0 +1,29 @@
+body{
+	font-family:Georgia, serif;
+	line-height: 1.4;
+	color: black;
+	margin-left:20px;
+	margin-right: 20px;
+
+
+}
+
+em, h1{
+	color:black;
+}
+
+blockquote{
+	border-left:5px solid lightgray;
+	margin-left:0px;
+	padding-left: 10px; 
+}
+
+blockquote p {
+	font-style:italic;
+
+}
+
+blockquote p em {
+	font-style:normal;
+}
+

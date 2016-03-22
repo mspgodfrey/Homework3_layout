@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Error Message</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <h1>Classes and IDs</h1>
+
+<p>Say we have a notification to style, with an id of </span>notification</span>.<p>
+
+<div id="#notification">
+  This has an <strong>id</strong> of <span>notification</span>, so it is selected in CSS with <span>#notification</span>. Check it out.
+</div>
+
+<p>But what if we have many messages on the page which are meant to look similar?</p>
+
+<div class="message">
+  This is in an element with a <strong>class</strong> of </span>message</span>, so it can be selected in CSS with <span>.message</span>.
+</div>
+
+<div class="message">
+  This is in another element with a <strong>class</strong> of </span>>message</span>, so it gets styled too.
+</div>
+
+<div class="message">
+  A third element with a <strong>class</strong> of <span>message</span>, for good measure. One CSS selector styles all of these.
+</div>
+
+<h2>IDs are singular, Classes are plural</h2>
+
+<p>An ID is meant to be used only once in a given HTML document. A given element can have only one ID.</p>
+
+<p>A class can be reused as many times as needed in a given HTML document. A given element can have multiple classes.</p>
+
+<h2>Using Multiple Classes</h2>
+
+<p>An element can be given multiple classes, separated by spaces, such as <span>class="foo bar baz"</span>.</p>
+
+<div class="messsage error">
+  This has <span>class="message error"</span>, meaning it has two classes: <span>message</span> and <span>error</span>. It will get styles from <span>.message</span> and <span>.error</span>. The styles for <span>.error</span> override the default styles, which we achieve by placing them after the styles for <span>.message</span>.
+</div>
+
+<p>Here is the new element with a class <span>message</span> and a class <span>success</span>
+
+<div class="message success">
+	Here you can see how I styled the class <span>success</span>. 
+</div>
+
+<h2>Your Turn</h2>
+
+<p>Create two new divs on the page with the class "message". Add an additional class of "error" to one container and an additonal class of "success" to the other. When both classes (message + success) are together, how do you want it to look? What about if (message + error) are grouped together? What styles are consistent for both containers that you can leave in the CSS rule for "message"?</p>
+
+</body>
+
+</html>

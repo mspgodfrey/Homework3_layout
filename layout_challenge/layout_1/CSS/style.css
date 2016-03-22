@@ -1,0 +1,39 @@
+body{
+	margin:5px 5px 5px 5px;
+}
+
+
+div.header, div.footer {
+	margin:0px;
+	padding:0px;
+	background-color: lightgray;
+	border:1px solid black;
+	height:75px;
+}
+
+div.left{
+	float:left;
+	width:200px;
+	height:400px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	padding-right:43%;
+	background-color: lightgray;
+	border:1px solid black;
+
+}
+
+div.right{
+	float:right;
+	width:100px;
+	height:400px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	padding-left:35%;
+	background-color: lightgray;
+	border:1px solid black;
+}
+
+.clearfix{
+	overflow: auto;
+}
